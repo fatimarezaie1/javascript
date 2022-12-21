@@ -1,0 +1,185 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+#header{
+ height: 60px;
+ background-color: darkgoldenrod;
+ width: 100%;
+}
+#list{
+    list-style-type: none;
+    text-align: right;
+    padding-top:20px;
+}
+li{
+    display: inline;
+    padding: 40px 40px; 
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+#list2{
+    text-align: left;
+    padding-top: 0px;
+}
+#section{
+    background-color: black;
+    height: 400px;
+    width: 100%;
+}
+#dev1{
+    width: 674px;
+    height: 400px;
+    float: left;
+}
+#innerDiv1{
+    height: 250px;
+    width: 300px;
+    margin-left: 100px;
+    margin-top: 120px;
+}
+#h1{
+    font-size: 30px;
+}
+button:hover{
+    background-color: darkgoldenrod;
+   
+}
+#btn1{
+    margin-left: 30px;
+    margin-top: 20px;
+    padding: 10px 30px;
+    font-size: 15px;
+
+}
+#btn2{
+    font-size: 15px;
+    margin-left: 15px;
+    margin-top: 20px;
+    padding: 10px 30px;
+}
+#dev2{
+    width: 675px;
+    height: 400px;
+    float: right;
+    display: inline;
+    background-color: wheat;
+}
+#nnerDiv2{
+    height: 200px;
+    width: 400px;
+    background-color: rgb(79, 65, 109);
+   
+}
+#img1{
+
+    margin-left: 300px;
+    margin-top: 30px;
+    border-radius: 150px;
+}
+#side{
+    text-align: center;
+    height: 400px;
+    width: 100%;
+    background-color: black;
+
+}
+#AsideDiv{
+    display: inline;
+    height: 200px;
+    width: 400px;
+    text-align: center;
+    background-color: black;
+}
+#img2{
+    text-align: center;
+    display: inline;
+    float: left;
+    height: 200px;
+    width: 400px;
+    padding: 10px 20px;
+    margin:20px 20px;
+    border-radius: 30px;
+}
+#div2{
+    height: 300px;
+    width: 100%;
+    background-color: white;
+}
+#innerdiv3{
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+}
+#div3{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+hr{
+    padding-top: 40px;
+    border-color: yellow;
+    width: 90%;
+    margin-left: 60px;
+    border-bottom-width:4px;
+}
+#innerdiv4{
+    height: 150px;
+    width: 200px;
+    background-color: black;
+    display: inline;
+    float: left;
+    margin:20px 0px 10px 100px;
+    padding: 30px 30px 30px 30px;
+    border-radius: 20px;
+}
+#div0{
+    margin-left: 180px;
+    margin-top: 100px;
+}
+#divInFooter{
+    height: 100px;
+    width: 600px;
+    display: block;
+}
+#footer{
+    height: 200px;
+    width: 100%;
+    background-color: darkorange;
+}
+#divInFooter1{
+    width: 675px;
+    padding-top: 30px;
+    margin-left: 20px;
+    display: inline;
+    float: left;
+}
+label{
+    color: white;
+    font-size: 18px;
+}
+input{
+    width: 400px;
+    padding: 8px 8px;
+}
+#divInFooter2{
+    padding:30px 20px;
+    color: white;
+} 
+#submit{
+   margin-top: 10px;
+}
+#innerdiv4.large{
+    height: 160px;
+    width: 220px;
+}
+#innerdiv4.small{
+    height: 150px;
+    width: 200px;
+}

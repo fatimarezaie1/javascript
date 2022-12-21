@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>method of arraay in js</title>
+    </head>
+    <body>
+    <script>
+        var y= new Array("Mohammad","Ahmad");
+        document.write(y.join("")+"</br>");
+        // the functionality of join is like toString but it can take parameter. 
+        // The JavaScript method toString() converts an array to a string of (comma separated) array values.
+        var t =new Array(1,2,3,4,4);
+        document.write(t.toString()+"</br>")
+        // when we work with array it is so easy to insert and delet any element with pop and push 
+        // with pop method we don't have any parameter but push(insert) have method
+        // but with pop and push we can add in the last or delete from the last
+        var names= ["Fatima","Rezaie","Narges","Mohammadi"];
+        names.pop();
+        document.write(names.pop()+"</br>");
+        var vigitable =["banaa","peach","apple","orange"];
+        vigitable.push("brunch");
+        document.write(vigitable +"</br>" );
+        //The shift() method removes the first array element and "shifts" all other elements to a lower index.
+        var p=new Array("a","b","c","d");
+        document.write(p+"</br>")
+        p.shift();
+        document.write(p+"</br>")
+        //The unshift() method adds a new element to an array (at the beginning), and "unshifts" older elements:
+        var w=new Array("ali","ahmad","farhad");
+        document.write(w+"</br>")
+        w.unshift("darya");
+        document.write(w+"</br>")
+        document.write(w.unshift("ahsan")+"</br>");
+        document.write(w.length + "</br>");
+        //The splice() method can be used to add new items to an array:in favorite place
+        var q=new Array("hamid","maryam","layla","ahmad" +"</br>");
+        document.write(q );
+        q.splice(2, 0, "arfan", "amran");
+        document.write(q);
+        //With clever parameter setting, you can use splice() to remove elements without leaving "holes" in the array:
+        var b=new Array("ahmad","ali","faitma","ehsan");
+        document.write(b + "</br>");
+        b.splice(0,1);
+        document.write(b + "</br>");
+        //he concat() method creates a new array by merging (concatenating) existing arrays:
+        var boys=new Array("ali","ahmad","sina");
+        var girls=new Array("fatim","zahra","mahtab");
+        document.write(boys.concat(girls)+"</br>");
+    </script>
+    </body>
+</html>

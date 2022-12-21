@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>check the form</title>
+        <script>
+            function check(){
+               
+                var mail=document.getElementById('email').value;
+                var pattern = new RegExp("[a-z]*[0-9]+@[A-z].[a-z]{2}");
+                if(pattern.test(mail))
+                alert("log in successfully!")
+                else
+                alert("log in faild!");
+
+                var Stu_name = document.getElementById('name').value;
+                var patt =new RegExp("[A-z]+",g);
+                if(patt.test(Stu_name))
+                alert();
+                else
+                alert("Try again!")
+
+            }
+        </script>
+    </head>
+    <body>
+        <div>
+     <table >
+         <form action="">
+             <tr>
+                 <td> Name:</td>
+                 <td><input type="text" id="name" placeholder="User Name" name="user name" > </td>
+             </tr>
+        <tr>
+            <td>Email:</td>
+            <td> <input type="email" id="email" placeholder="Emil Address" name="phone number"> </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><button type="button" value="click here" onclick="check();">click here</button> </td>
+        </tr>
+
+        </form>
+     </table>
+    </div>
+    </body>
+</html>

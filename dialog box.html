@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>confirm box</title>
+    <script>
+        function check(){
+          var clear=   confirm ("Are you sure to reset all the form? ");
+          if(clear)
+          return true;
+          else 
+          return false;
+        }
+    </script>
+</head>
+<body>
+    <!-- //  we have three type of dialog boc
+    // 1- alert -- display msgs
+    // 2-prompt -- input data
+    // 3- confirm -- get user confirmation and its output is flase or true -->
+    <form method="post" onreset="return check(); ">
+        firstname: <input type="text" name="fname"> <br>
+        lastname: <input type="text" name="lastname"> <br>
+        username : <input type="text" name="username"> <br>
+        password: <input type="password" name="password"> <br>
+        <input type="reset" value="clear">
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>

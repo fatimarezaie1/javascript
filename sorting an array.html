@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>array sorting</title>
+    </head>
+    <body>
+        <div id="dev1"></div>
+        <div id="dev2">
+        </div>
+    <script>
+    // The sort() method sorts an array alphabetically:
+    var a =["ali","ahmad","jan","khan"];
+    document.write(a.join("__")+"</br>");
+    document.write(a.reverse());
+    var numbers=new Array(1,3,5,6,8,9,75);
+    for(y in numbers){
+        document.write(numbers[y]+"</br>")
+    }
+    // by filter method we can filter our array by  heighest number, lowest number and favorite function
+    var r=new Array(12,34,65,7,87,98,53,56,78);
+    var heighest_number=r.filter(myfunction);
+    document.write(r+"</br>")
+    document.write("heighest number in array"+"  "+ heighest_number+"</br>");
+    function myfunction(value){
+        return value>56;
+    }
+    // reduse method always return a single value for us so we can conclude that we can find the addition of an array 
+    // and by this method we can use all math operation in an array
+    var y=new Array(20,3,5,7,1,34);
+    var sum=y.reduceRight(myfun);
+    document.write(y.join(" + "));
+   
+    document.write("</br>")
+    document.write(" = "+sum+ "</br>");
+    function myfun(value,totle){
+
+        return value + totle;
+    }
+// he every() method check if all array values pass a test.
+var q=[12,4,6,8,1,2,3,4,5];
+var test=q.every(my);
+document.write(test);
+function my(value ,totle){
+    return value > 4;
+}
+
+    </script>
+    </body>
+</html>

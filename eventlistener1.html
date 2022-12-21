@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>event listeners too</title>
+    <script>
+        function test(){
+            let pass = document.getElementById('psw').value;
+            if(pass.indexOf(" ") > -1)
+            {
+                document.getElementById('err').innerHTML=
+                "space not allowed! ";
+            } 
+            else{
+                document.getElementById(err).innerHTML="";
+            }
+        }
+    </script>
+</head>
+<body>
+    <form action="" method="post" id="form">
+        username: <input type="text" id="name"> <br>
+        passwoed: <input type="password" id="psw" onkeyup="  test(); "><span
+        id="err" style="color:red;"></span> <br>
+        <input type="submit" value="log_in" >
+    </form>
+</body>
+</html>

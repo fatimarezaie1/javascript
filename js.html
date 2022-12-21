@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>function and condition</title>
+    </head>
+    <body>
+        <h3>Log In Page</h3>
+        <form action="js.html" method="post">
+            <input type="text" name="username" placeholder="User Name">
+            <input id="password" type="password" name="password" placeholder="Enter">
+            <input type="submit" name="compare" onclick="document.getElementById('password').innerHTML=myfunction()">
+
+
+
+        </form>
+
+        <script>
+            function myfunction(){
+              var password;
+              if(password=="jfafjie")
+              return "log in successfully"
+              else
+              return "log in faild"
+             }
+            //  document.getElementById('password').innerHTML=myfunction;
+        </script>
+    </body>
+</html>
